@@ -8,7 +8,7 @@ import pandas as pd
 import imageio_ffmpeg
 
 # ==========================================
-# 1. FOLDER PATHS (Matches your D:\Deepfake_Thesis layout)
+# 1. FOLDER PATHS
 # ==========================================
 RAW_DIR = Path(r"D:\Deepfake_Thesis\01_Raw_Datasets\PH_Dataset")
 OUT_DIR = Path(r"D:\Deepfake_Thesis\PH_Dataset_Preprocessed")
@@ -27,7 +27,7 @@ BBOX_MARGIN = 0.25   # 25% margin around detected face (standard FaceForensics++
 # Format: (video_id, pair_id, label [1=fake, 0=real], url, start_ts, end_ts, crop_half)
 # ==========================================
 CLIPS = [
-    # --- Pairs 1-4 (Already saved in D:\Deepfake_Thesis\01_Raw_Datasets\PH_Dataset) ---
+    # --- Pairs 1-4 ---
     ("PH_FAKE_001", "pair_01", 1, None, None, None, None),
     ("PH_REAL_001", "pair_01", 0, None, None, None, None),
 
