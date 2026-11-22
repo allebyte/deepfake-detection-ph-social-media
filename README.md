@@ -24,6 +24,7 @@ Python, PyTorch, OpenCV (YuNet), Scikit-learn, Pandas, FFmpeg, FFprobe, and Goog
 ## Repository Structure
 * `notebooks/` — End-to-end Google Colab experimentation, training, and evaluation notebook(s)
 * `src/` — Modular Python preprocessing scripts (uniform 16-frame sampling & YuNet facial ROI extraction)
+* `metadata/` — Video-level dataset manifests (`dev_720.csv`, `test_180.csv`) and stratified 5-fold cross-validation splits (`fold_0.csv`–`fold_4.csv`)
 * `results/` — Summary tables, per-fold metrics, video-level predictions, statistical test outputs, and evaluation plots
 * `logs/` — Epoch-by-epoch training and validation history logs across all 5 folds (`25` training runs)
 
