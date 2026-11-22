@@ -1,0 +1,6 @@
+model,input_resolution,inference_time_ms_video,model_size_mb,parameters_millions,total_parameters_exact,model_weights_ram_mb,peak_gpu_vram_mb,clean_auc,ph_auc
+EfficientNet-B0,224x224,22.16,15.58,4.01,4008829,15.29,217.59,0.8491,0.654
+Xception,299x299,127.0,79.68,20.81,20809001,79.38,696.12,0.9593,0.684
+CNN-LSTM,224x224,21.39,21.58,5.58,5582717,21.3,223.6,0.8015,0.624
+GenConViT-ED,224x224,142.82,211.27,55.35,55345628,211.13,464.83,0.4985,0.606
+FakeFormer-S,112x112,51.94,81.86,21.44,21444865,81.81,147.81,0.8069,0.608

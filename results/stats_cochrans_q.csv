@@ -1,0 +1,4 @@
+tier,n_videos,k_models,cochrans_Q,df,p_value,significant_0.05
+clean,180,5,102.493,4,2.897303793715305e-21,True
+tier1_moderate,180,5,61.9589,4,1.123740254424821e-12,True
+tier2_heavy,180,5,13.3026,4,0.009888242745318,True
